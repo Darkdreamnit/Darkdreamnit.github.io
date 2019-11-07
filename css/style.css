@@ -26,7 +26,7 @@
 	}
 
 	h2 {
-		size: 200px;
+		
 		padding-bottom: 1px;
 	}
 	
@@ -428,6 +428,7 @@
   background-color: #000000;
   height: 59px;
   padding-bottom: 4px;
+  overflow: hidden;
 }
 #cssmenu.align-right {
   float: right;
