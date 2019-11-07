@@ -144,6 +144,15 @@
 			margin-bottom: 0;
 		}
 
+
+/*Buttons*/
+
+#button1 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+
 	/* Images */
 
 		.image
