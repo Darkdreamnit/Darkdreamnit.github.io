@@ -201,75 +201,7 @@
 					width: auto;
 				}
 
-	/* Lists */
-
-		ul.default
-		{
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-		
-			ul.default li
-			{
-				padding: 0.60em 0em;
-				border-top: 1px solid;
-				border-color: rgba(255,255,255,.1);
-			}
-			
-			ul.default li:first-child
-			{
-				padding-top: 0;
-				border-top: none;
-			}
-			
-			ul.default a
-			{
-				text-decoration: none;
-				color: rgba(255,255,255,.5);
-			}
-			
-			ul.default a:hover
-			{
-				text-decoration: underline;
-			}
-			
-		ul.style {
-		}
-		
-		ul.style li {
-			margin: 0;
-			padding: 2em 0em 1.5em 0em;
-			border-top: 1px solid #ECECEC;
-		}
-		
-		ul.style li:first-child
-		{
-			padding-top: 0;
-			border-top: none;
-		}
-		
-		ul.style img {
-			float: left;
-			margin-right: 20px;
-		}
-		
-		ul.style p {
-		}
-		
-		ul.style .posted {
-			padding: 0em 0em 1em 0em;
-			letter-spacing: 1px;
-			text-transform: uppercase;
-			font-size: 8pt;
-			color: #A2A2A2;
-		}
-		
-		ul.style .first {
-			padding-top: 0px;
-			border-top: none;
-		}
-							
+				
 
 	/* Buttons */
 		
@@ -743,4 +675,10 @@ input[type=submit] {
     font-weight: 700;
     src: local('Arimo Bold'), local('Arimo-Bold'), url(https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TRDrZI.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.bulletlist ol {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
 }
