@@ -348,6 +348,15 @@ ul.nav li.dropdown ul li i {
   font-weight: 700;
 }
 
+    .intro-content h1 {
+        color: #fff;
+        margin-bottom: 30px;
+        font-size: 64px;
+        font-weight: 700;
+    }
+
+
+
 .intro-content  h3 {
   color: #fff;
   margin-bottom: 30px;
