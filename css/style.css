@@ -2896,26 +2896,13 @@ ul.the-icons {
 }
 
 #words b{
-
-   padding-bottom: 10px;
+    margin-bottom:40px;
+   padding-bottom: 40px;
     color: green;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
-.song2 {
-    line-height: 10px;
-    padding-left: 100px;
-}
 
-.song3 {
-    line-height: 10px;
-    padding-left: 100px;
-}
-
-.song4 {
-    line-height: 10px;
-    padding-left: 100px;
-}
 
 /* Theme Styler :: End */
