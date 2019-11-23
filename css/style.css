@@ -2886,6 +2886,7 @@ ul.the-icons {
 
 
 .song1 {
+   
     line-height: 10px;
     padding-left:100px;
 }
@@ -2901,6 +2902,11 @@ ul.the-icons {
     color: green;
     font-size: 20px;
 }
+
+    #words br {
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+    }
 
 
 
