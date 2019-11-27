@@ -2633,12 +2633,26 @@ ul.the-icons {
         text-align: center;
     }
 
+
+.post-entry blockquote{
+	color:red;
+	background-color: red;
+	
+}
     .features .feat {
         width: 100%;
         float: left;
         display: inline-block;
         margin-bottom: 30px;
     }
+
+
+
+.post-entry {
+	color: green;
+	background-color: red;
+}
+
 
     .cta.floatright {
         float: none;
