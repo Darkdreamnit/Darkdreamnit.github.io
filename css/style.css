@@ -1683,7 +1683,7 @@ a.thumbnail:focus {
 }
 
 article .post-entry {
-    margin-left: 167px;
+    margin-left: 1px;
 }
 
 /* --- single post --- */
@@ -2634,11 +2634,7 @@ ul.the-icons {
     }
 
 
-.post-entry blockquote{
-	color:red;
-	background-color: red;
-	
-}
+
     .features .feat {
         width: 100%;
         float: left;
@@ -2648,10 +2644,7 @@ ul.the-icons {
 
 
 
-.post-entry {
-	color: green;
-	background-color: red;
-}
+
 
 
     .cta.floatright {
