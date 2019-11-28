@@ -2625,7 +2625,11 @@ ul.the-icons {
     }
 
     article .post-entry {
-        
+        margin-left: 0;
+    }
+
+    article h5 {
+        padding-left: 0px;
     }
 
     .cta-text {
