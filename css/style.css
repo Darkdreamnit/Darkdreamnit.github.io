@@ -2910,12 +2910,22 @@ ul.the-icons {
     font-size: 20px;
 }
 
-    #words br {
-        margin-bottom: 40px;
-        padding-bottom: 40px;
-    }
+#words p{
+    line-height: 20px;
+    margin-bottom:40px;
+   padding-bottom: 40px;
+    color: green;
+    font-size: 20px;
+}
 
+
+
+    
 
 
 
 /* Theme Styler :: End */
+
+
+
+
