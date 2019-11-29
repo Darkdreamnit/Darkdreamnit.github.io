@@ -1,3 +1,4 @@
 User-agent: *
 Disallow:/contact/
 noindex: /contact/
+sitemap: https://camperrules.com/sitemap.xml
