@@ -2935,3 +2935,13 @@ ul.the-icons {
     color: ;
 
 }
+
+.text3 {
+    line-height: 10px;
+    color: ;
+    margin-left: 0px;
+
+}
+.text3 ol li {
+    text-align: left;
+}
