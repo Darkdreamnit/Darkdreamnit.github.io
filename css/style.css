@@ -33,6 +33,7 @@
 20. Spacer, margin
 21. Media queries
 22. Song
+23. text on campersongs
 ==================================== */
 /* ===================================
 1. General
@@ -2921,5 +2922,16 @@ ul.the-icons {
 /* Theme Styler :: End */
 
 
+/******************23 Edit texts on camper songs page***************************/
 
+.text {
+    line-height: 20px;
+    color: ;
 
+}
+
+.text2 {
+    line-height: 10px;
+    color: ;
+
+}
