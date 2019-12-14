@@ -34,10 +34,14 @@
 21. Media queries
 22. Song
 23. text on campersongs
+24. Ordered List
 ==================================== */
 /* ===================================
 1. General
 ==================================== */
+
+
+
 
 body {
     font-family: 'Open Sans', Arial, sans-serif;
@@ -642,6 +646,9 @@ ul.lush-slider {
 
 /* --- Call to action --- */
 .cta-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
     background: #eceae6;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -2945,3 +2952,27 @@ ul.the-icons {
 .text3 ol li {
     text-align: left;
 }
+
+
+/******************24 Ordered list***************************/
+
+ol.whatdoesrvmean {
+    list-style: none;
+    counter-reset: item;
+  }
+  li.whatdoesrvmean {
+    counter-increment: item;
+    margin-bottom: 5px;
+  }
+  li.whatdoesrvmean:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: lightblue;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  
