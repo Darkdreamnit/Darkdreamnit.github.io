@@ -2982,7 +2982,7 @@ ul.columnrv li{
 
 float: left;
 
-width: 33%;//helps to determine number of columns, for instance 33.3% displays 3 columns
+width: 50%;//helps to determine number of columns, for instance 33.3% displays 3 columns and so on
 }
 ul.columnrv {
     padding: 30px;
