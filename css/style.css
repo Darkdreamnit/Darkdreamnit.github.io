@@ -2975,4 +2975,21 @@ ol.whatdoesrvmean {
     display: inline-block;
   }
   
+
+  
+
+ul.columnrv li{
+
+float: left;
+
+width: 33%;//helps to determine number of columns, for instance 33.3% displays 3 columns
+}
+ul.columnrv {
+    padding: 30px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    list-style-type: disc;
+}
+
+
   
