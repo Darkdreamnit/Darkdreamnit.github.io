@@ -2985,11 +2985,29 @@ float: left;
 width: 50%;//helps to determine number of columns, for instance 33.3% displays 3 columns and so on
 }
 ul.columnrv {
-    padding: 31px;
+    padding: 34px;
     overflow: hidden;
     padding-bottom: 10px;
     list-style-type: disc;
 }
 
 
-  
+
+
+#h5 {color: #640a0a;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-bottom: 2px;
+    margin-bottom: 1px;
+  }
+
+  #h6 {color: #73ce0b;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-bottom: 2px;
+    margin-bottom: 1px;
+  }
