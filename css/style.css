@@ -374,6 +374,7 @@ select.selectmenu {
 =========================== */
 
 #intro {
+    border-width: 0px;
     width: 100%;
     height: 60vh;
     position: relative;
@@ -2186,6 +2187,7 @@ footer {
 section.demogrid .span1, section.demogrid .span2, section.demogrid .span3, section.demogrid .span4, section.demogrid .span5, section.demogrid .span6, section.demogrid .span7, section.demogrid .span8, section.demogrid .span9, section.demogrid .span10, section.demogrid .span11 {
     background: #f6f6f6;
     text-align: center;
+    
     padding: 20px 0 20px;
 }
 
