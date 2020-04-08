@@ -3007,7 +3007,7 @@ ul.columnrv li{
 
 float: left;
 
-width: 50%;//helps to determine number of columns, for instance 33.3% displays 3 columns and so on
+width: 50%; //helps to determine number of columns, for instance 33.3% displays 3 columns and so on
 }
 ul.columnrv {
     padding: 34px;
@@ -3015,4 +3015,41 @@ ul.columnrv {
     padding-bottom: 10px;
     list-style-type: disc;
 }
-  }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+.bulletlist2 ul
+{
+    
+  width: 30em;  /* room for 3 columns */
+}
+.bulletlist2 ul li
+{
+  float: left;
+  
+  width: 10em;  /* accommodate the widest item */
+}
+/* stop the floating after the list */
+.bulletlist2 
+{
+    
+  clear: left;
+}
+/* separate the list from what follows it */
+div.bulletlist2
+{
+    overflow: hidden;
+  margin-bottom: 1em;
+}
+
+
+.bulletlist2 ul li:hover
+{
+    overflow: hidden;
+  color: #FFF; /* white */
+  background-color: #A52A2A; /* brown */
+}
+
