@@ -37,6 +37,7 @@
 23. text on campersongs
 24. Ordered List
 25. A link styling
+26. Lazy Loadingcolumn
 
 
 
@@ -3067,6 +3068,17 @@ ul.columnrv {
     overflow: hidden;
     padding-bottom: 10px;
     list-style-type: disc;
+}
+
+/******************24 Ordered list***************************/
+
+div#multiColumn {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
 }
 
 /******************Bullets***************************/
