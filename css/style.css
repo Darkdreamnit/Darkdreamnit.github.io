@@ -3060,12 +3060,16 @@ ol.whatdoesrvmean {
 ul.columnrv li{
 
 float: left;
+word-wrap: break-word;
+
 
 width: 50%; //helps to determine number of columns, for instance 33.3% displays 3 columns and so on
 }
 ul.columnrv {
     padding: 34px;
     overflow: hidden;
+    
+  position: relative;
     padding-bottom: 10px;
     list-style-type: disc;
 }
