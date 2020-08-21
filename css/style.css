@@ -3482,3 +3482,13 @@ table {
 .container th:nth-child(4) { display: none; }
 }
 
+
+
+
+
+/**************************  h5 ***************************************/
+
+h5.decor {
+    font-size: 2em;
+    color: #FB667A;
+}
