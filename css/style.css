@@ -1468,6 +1468,34 @@ blockquote {
 
 /* --- list style --- */
 
+/* specific ul li */
+
+ul.colorful li {
+    color: red;
+    font-weight: 700;
+}
+
+ul.colorful p.imp{
+    color:brown;
+    font-weight: 700;
+}
+
+ul.colorful2 li b{
+    color: red;
+    font-weight: 700;
+}
+
+ol.colorful li {
+    color: red;
+    font-weight: 700;
+}
+
+ul.normal li {
+    font-size: 0.8em;
+    color: black;
+}
+
+
 ul.general {
     list-style: none;
     margin-left: 0;
