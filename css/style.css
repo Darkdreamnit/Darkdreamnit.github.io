@@ -3144,6 +3144,8 @@ div#multiColumn {
     column-gap: 20px;
 }
 
+
+
 /******************Bullets***************************/
 
 
@@ -3419,10 +3421,17 @@ a {
     text-decoration: none;
 }
 
-table {
+
+
+
+
+
+ /******************27. Tables***************************/
+ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    
   }
   
   td, th {
@@ -3434,12 +3443,6 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
-
-
-
-
- /******************27. Tables***************************/
-
 
   .blue { color: #185875; }
 .yellow { color: #FFF842; }
@@ -3479,7 +3482,7 @@ table {
 }
 
 .container th {
-	  background-color: #2fe2bf;
+	  background-color: rgb(63, 36, 36);
 }
 
 .container td:first-child { color: #FB667A; }
