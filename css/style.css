@@ -3523,3 +3523,12 @@ h5.decor {
     font-size: 2em;
     color: #FB667A;
 }
+
+
+/******************************ul largeul*************************** */
+
+#largeul li{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
