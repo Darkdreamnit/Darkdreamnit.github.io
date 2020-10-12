@@ -758,6 +758,18 @@
     <script src="js/lazyload.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/custom.js"></script>
+    <script type="text/javascript">
+        function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "https://cdn.subscribers.com/assets/subscribers.js, custom.js, jquery.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
+        </script>
     
 
 
