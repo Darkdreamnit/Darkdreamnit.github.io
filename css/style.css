@@ -1903,12 +1903,12 @@ aside .widget {
 ul.cat, ul.recent, ul.folio-detail, ul.contact-info {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: circle;
 }
 
     ul.cat li, ul.recent li, ul.folio-detail li, ul.contact-info li {
         margin: 0 0 15px 0;
-        list-style: none;
+        list-style: circle;
     }
 
         ul.contact-info li label {
@@ -1933,6 +1933,19 @@ ul.cat, ul.recent, ul.folio-detail, ul.contact-info {
             cursor: default;
             color: #353535;
             font-weight: bold;
+        }
+
+        ul.cat li {
+            line-height: 8px;
+            
+        }
+
+        ul.cat li:hover {
+            color: green;
+        }
+
+        ul.cat li a:hover {
+            color: blue;
         }
 
 .widget ul.recent li {
