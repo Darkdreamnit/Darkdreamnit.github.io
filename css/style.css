@@ -1945,7 +1945,7 @@ ul.cat, ul.recent, ul.folio-detail, ul.contact-info {
         }
 
         ul.cat li a:hover {
-            color: blue;
+            color: blueassets;
         }
 
 .widget ul.recent li {
