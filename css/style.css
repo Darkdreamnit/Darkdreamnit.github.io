@@ -380,6 +380,8 @@ select.selectmenu {
 6. Intro
 =========================== */
 
+
+/*
 #intro {
     border-width: 0px;
     width: 100%;
@@ -388,6 +390,7 @@ select.selectmenu {
     background: url(../img/intro-background.jpg) top center;
     background-size: cover;
 }
+*/
 
 @media (min-width: 1024px) {
     #intro {
