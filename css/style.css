@@ -3596,3 +3596,70 @@ a:visited {
 
 
 
+#container4{
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	text-align: center;
+	border-radius: 5px;
+	margin: 3em auto;
+	height: 120px;
+	width: 600px;
+	padding: 1em;
+	
+	
+}
+
+#container4 h2 {
+    background-color: #1a1a1a;
+		/*   الكود المسؤال عن اضافة شفافية للنص */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+/* 	background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%); */
+	font-family: 'Playfair Display', serif;
+	background-repeat: no-repeat;
+	font-size: 2.8em;
+	margin: 0px 0 0em 0;
+
+	
+	
+}
+#container4 p {
+	font-family: 'Farsan', cursive;
+	margin: 4px 0 0.3em 0;
+	font-size: 1.3em;
+	color: #7d7d7d;
+}
+
+#container4 input {
+/* 	background: rgba(255, 13, 254, 0.90); */
+	width: 210px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 7px;
+	background: #eee;
+	padding: 1em 2em;
+	outline: none;
+	border: none;
+	color: #222;
+	transition: 0.3s linear;
+}
+::placeholder{color: #999;}
+#container4 input:focus {background: rgba(0, 0, 333, 0.10);}
+
+#container4 button {
+	background-image: linear-gradient(to left, rgba(255, 146, 202, 0.75) 0%, rgba(145, 149, 251, 0.86) 100%);
+	box-shadow: 0 9px 25px -5px #df91fb;
+	font-family: 'Abel', sans-serif;
+	padding: 0.5em 1.9em;
+	margin: 0 0 0 0;
+	border-radius: 7px;
+	font-size: 1.4em;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 1em;
+	outline: none;
+	border: none;
+	transition: 0.3s linear;
+
+}
+#container4 button:hover{transform: translatey(2px);}
+#container4 button:active{transform: translatey(5px);}
