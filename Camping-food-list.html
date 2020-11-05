@@ -372,6 +372,20 @@
                                                     </form>
                                                 </div>
 
+                                                <form class="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                                                    <div hidden aria-hidden="true">
+                                                      <label>
+                                                        Don’t fill this out if you're human: 
+                                                        <input name="bot-field" />
+                                                      </label>
+                                                    </div>
+                                                    <label for="email">Your email address</label>
+                                                    <div>
+                                                      <input type="email" name="email" placeholder="Email"  id="email" required />
+                                                      <button type="submit">Subscribe</button>
+                                                    </div>
+                                                  </form>
+
                                                 <h4>Items you will need to start a campfire</h4>
 
                                                 <ul>
