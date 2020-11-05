@@ -9,6 +9,7 @@
 
 @import url('animate.css');
 @import url('shortcodes.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 /* Table of content */
 /*===================================
@@ -3555,3 +3556,43 @@ h5.decor {
     color: green;
     font-style: italic;
 }
+
+.btncontact {
+    background-color: darkslategray;
+    color: floralwhite;
+    border: black;
+    border-radius: 20px;
+    
+} 
+
+
+
+.logolarge {
+    font-size: 50px;
+}
+
+
+a.alogo {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
