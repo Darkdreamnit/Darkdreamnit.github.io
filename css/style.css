@@ -3602,10 +3602,8 @@ a:visited {
 	border-radius: 5px;
 	margin: 3em auto;
 	height: 120px;
-	width: 600px;
-	padding: 1em;
-	
-	
+	width: 80%;
+    padding: 1em;
 }
 
 #container4 h2 {
