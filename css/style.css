@@ -2710,6 +2710,9 @@ ul.the-icons {
         padding-top: 50px;
     }
 
+    .span8 .text2 {
+        color: green;
+    }
 
     footer .span1, footer .span2, footer .span3, footer .span4, footer .span5, footer .span6,
     footer .span7, footer .span8, footer .span9, footer .span10, footer .span11, footer .span12 {
@@ -3701,9 +3704,18 @@ a:visited {
 	
 }
 
-
-.span8 p {
+.contactnow {
     font-size: 1.7em;
+    text-align: center;
+}
+
+.indextop p {width: 80%;
+    font-size: 1.8em;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.indextop {
     text-align: center;
 }
 
