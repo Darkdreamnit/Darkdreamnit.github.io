@@ -129,9 +129,7 @@
       <div class="container">
         <div class="row">
           <div class="span4">
-            <div class="inner-heading">
-              <h6>Send us all your thoughts or request about being featured on this website. If you have a camper story, we want to hear.</h6>
-            </div>
+            
           </div>
           <div class="span8">
             <ul class="breadcrumb">
@@ -147,9 +145,33 @@
       <div class="container">
         <div class="row">
           <div class="span8">
-            <h4>Contact us by using this contact form</h4>
+            
+
+            <div id="container5">
+              <h4>Contact us by using this contact form</h4>
+              <form name="CamperRules Contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                  <div hidden aria-hidden="true">
+                <label>
+                  Don’t fill this out if you're human: 
+                  <input name="bot-field" />
+                </label>
+              </div>
+                  <input type="text" name="name" placeholder="Enter Your Full Name"  id="name" required />
+                  <br>
+                  <input type="text" name="subject" placeholder="Enter Your Subject"  id="subject" required />
+                  <br>
+                  <input type="text" name="email" placeholder="Enter Your Email"  id="email" required />
+                  <br>
+                  <div class="span8 margintop10 field form-group">
+                    <textarea rows="12" name="message" class="input-block-level2" placeholder="* Your message here..." data-rule="required" data-msg="Please write something"></textarea>
+                    <div class="validation"></div>
+                    <br>
+                 <button type="submit">Subscribe</button>
+              </form>
+          </div>
 
 
+          <!--------
 
             <form id="contactform" data-netlify="TRUE" method="post" class="contactForm" netlify-honeypot="bot-field">
               <div hidden aria-hidden="true">
@@ -187,6 +209,8 @@
               </div>
             </form>
           </div>
+
+          -->
           
 
               </div>
