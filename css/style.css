@@ -3576,7 +3576,7 @@ a.alogo {
 }
 
 a:visited {
-    color: white;
+    color: rgb(7, 194, 100);
 }
 
 
@@ -3705,16 +3705,22 @@ a:visited {
     text-align: center;
 }
 
-.indextop p {width: 80%;
+.indextop p {
+    
+    text-align: center;
     font-size: 1.8em;
-    margin-left: 50px;
+    Margin: 5px;
     line-height: 30px;
 }
 
 .indextop {
-    text-align: center;
+    background-color: rgb(245, 240, 240);
+    border: rgb(144, 144, 173);
+    border-style: solid;
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
 }
-
 
 #container5 p {
 	font-family: 'Farsan', cursive;
@@ -3789,4 +3795,13 @@ textarea.input-block-level2{
 	color: #222;
     transition: 0.3s linear;
 }
+
+
+
+
+
+
+
+
+
 
