@@ -3805,3 +3805,59 @@ textarea.input-block-level2{
 
 
 
+
+
+@mixin btn-color($color: $main-color, $adj: $adjust) {
+    background-color: $color;
+    background-image: radial-gradient(
+      ellipse at top right,
+      adjust-color($color, $hue: $adj),
+      rgba($color, 0) 67%
+    );
+    box-shadow: 0 $shadow 0 darken($color, 25%);
+    color: yiq($color);
+    text-shadow: 0 -0.1em 0 rgba(yiq(yiq($color)), 0.5);
+  }
+  @mixin btn($color: $main-color, $adj: $adjust) {
+    @include btn-color($color, $adj);
+    $focus: adjust-color($color, $hue: $adj*3);
+    &:hover,
+    &:focus {
+      outline: none;
+      @include btn-color($focus);
+    }
+    &:active {
+      box-shadow: 0 0 0;
+      opacity: 0.67;
+      outline: none;
+      top: $shadow;
+    }
+  }
+  .multi-button {
+      padding-top: 20px;
+      margin: 3px;
+    place-items: center;
+    display: flex;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0 2rem 1rem -1rem #123;
+    height: 20px;
+    margin: 0;
+    display: grid;
+    
+  }
+  button {
+      color: white;
+      background-color: orangered;
+    appearance: none;
+    border: 0;
+    font: 2rem/1 monospace;
+    margin: 0;
+    overflow: hidden;
+    padding: 1rem 1.25rem;
+    position: relative;
+    top: 0;
+    transition: 0.3s;
+    
+    }
+    
