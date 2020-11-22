@@ -439,6 +439,12 @@ select.selectmenu {
         font-weight: 500;
     }
 
+    @media  (max-width: 657px) {
+        .vid {
+           width: 100%;
+        }
+     }
+
 @media (max-width: 767px) {
     #intro {
         height: 100vh;
