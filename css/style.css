@@ -2718,6 +2718,13 @@ ul.the-icons {
         color: green;
     }
 
+     p {
+         font-size: 20px;
+        color: green;
+    }
+
+     
+
     footer .span1, footer .span2, footer .span3, footer .span4, footer .span5, footer .span6,
     footer .span7, footer .span8, footer .span9, footer .span10, footer .span11, footer .span12 {
         margin-bottom: 20px;
