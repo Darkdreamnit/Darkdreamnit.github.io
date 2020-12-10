@@ -3128,31 +3128,6 @@ ol ol li:last-child {margin-bottom:0;}
 
 
   
-
-ul.columnrv li{
-
-float: left;
-font-size: 12px;
-
-
-
-width: 50%; //helps to determine number of columns, for instance 33.3% displays 3 columns and so on
-}
-ul.columnrv {
-    overflow: hidden;
-    
-    
-  position: relative;
-    list-style-type: disc;
-}
-
-
-
-    
-    
-    
-    width: 50%; //helps to determine number of columns, for instance 33.3% displays 3 columns and so on
-    }
    
 
 /******************24 Ordered list***************************/
