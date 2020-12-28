@@ -40,7 +40,7 @@
     <loc>https://www.camperrules.com/what-does-rv-stand-for</loc>
     <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.camperrules.com/15-best-campgrounds-to-visit</loc>
@@ -230,6 +230,12 @@
   </url>
   <url>
     <loc>https://www.camperrules.com/30-tips-for-winter-camping</loc>
+    <lastmod>2020-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camperrules.com/what-size-wire-for-50-amps</loc>
     <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
