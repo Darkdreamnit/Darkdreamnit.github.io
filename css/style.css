@@ -13318,3 +13318,7 @@ font-weight:600;
       width: 300px;
     }
   } 
+
+  b.list {
+    color:rgb(7, 194, 100);
+  }
