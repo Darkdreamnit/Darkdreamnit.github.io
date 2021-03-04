@@ -4748,7 +4748,7 @@ ol ul {
 }
 
 li {
-  line-height: 1.6em;
+  line-height: 1.9em;
 }
 
 ul.unstyled,
@@ -6646,7 +6646,7 @@ font-weight:600;
   }
   
   li {
-    line-height: 20px;
+    line-height: 40px;
   }
   
   ul.unstyled,
