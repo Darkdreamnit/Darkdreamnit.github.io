@@ -1,2 +1,5 @@
-http://camperrules.com https://www.camperrules.com
-https://camperrules.com https://www.camperrules.com
+# A basic redirect rule
+[[redirects]]
+  from = "http://camperrules.com"
+  to = "https://wwww.camperrules.com"
+  
