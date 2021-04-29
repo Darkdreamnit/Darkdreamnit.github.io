@@ -1,0 +1,5 @@
+﻿# A basic redirect rule
+[[redirects]]
+  from = "http://camperrules.com"
+  to = "https://wwww.camperrules.com"
+  
