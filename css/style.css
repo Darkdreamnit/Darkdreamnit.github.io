@@ -13322,3 +13322,19 @@ font-weight:600;
   b.list {
     color:rgb(7, 194, 100);
   }
+
+/** ================
+   * Center Logo
+   ===================*/
+
+   .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .centertext {
+
+    text-align: center;
+    
+    }
