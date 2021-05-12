@@ -294,5 +294,11 @@
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.camperrules.com/camping-at-lake-gaston</loc>
+    <lastmod>2021-05-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
   
 </urlset>

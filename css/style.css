@@ -3126,11 +3126,21 @@ li ol,
 li ul {margin-top:6px;}
 ol ol li:last-child {margin-bottom:0;}
 
+/******************23.5 UnOrdered list***************************/
+
+.columns2{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
 
   
    
 
 /******************24 Ordered list***************************/
+
+
 
 
 
@@ -13338,3 +13348,11 @@ font-weight:600;
     text-align: center;
     
     }
+
+
+
+
+
+
+
+    /****************************************** */
