@@ -13349,6 +13349,60 @@ font-weight:600;
     
     }
 
+    
+
+    /********************Bold text********************** */
+
+    b.green {
+      color: green;
+    }
+    ul.green {
+      background-color: #f5f5f0;
+      list-style: none;
+    }
+    ul.green > li {
+      color: green;
+    }
+    ul.green li::before {
+      content: "✅";
+      display: inline-block;
+      margin-right: 0.2rem;
+    }
+
+    
+    b.red {
+      color: red;
+    }
+    ul.red {
+      background-color: #f5f5f0;
+      list-style: none;
+    }
+    ul.red > li {
+      color: red;
+    }
+    ul.red li::before {
+      content: "❌";
+      display: inline-block;
+      margin-right: 0.2rem;
+    }
+
+
+
+    .product-section-header {
+      margin-bottom: 0;
+  }
+  .product-section-header {
+      padding: 0.3636363636em 0.5454545455em 0.1818181818em;
+      background-color: #7dbd42;
+      color: white;
+      font-size: 1.375em;
+  }
+
+   
+
+    
+
+
 
 
 
@@ -13356,3 +13410,4 @@ font-weight:600;
 
 
     /****************************************** */
+
