@@ -616,7 +616,7 @@ a [class*=" icon-"] {
 .icon-save {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c7;');
 }
-.icon-sign-blank {
+.icon-sign_blank {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c8;');
 }
 .icon-reorder {
@@ -811,7 +811,7 @@ a [class*=" icon-"] {
 .icon-mobile-phone {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10b;');
 }
-.icon-circle-blank {
+.icon-circle_blank {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10c;');
 }
 .icon-quote-left {
