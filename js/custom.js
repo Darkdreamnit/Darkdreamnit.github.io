@@ -71,11 +71,11 @@ jQuery(document).ready(function ($) {
 
   //prettyphoto
   $("a[data-pretty^='prettyPhoto']").prettyPhoto({
-    social-tools: ''
+    social_tools: ''
   });
 
   // tooltip
-  $('.social-network li a, .options-box .color a').tooltip();
+  $('.social-network li a, .options_box .color a').tooltip();
 
 
   //scroll to top
