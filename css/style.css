@@ -2,6 +2,8 @@
 @import url('../js/google-code-prettify/prettify.css');
 /* === fontawesome === */
 @import url('font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 /* === custom icon === */
 @import url('custom-fonts.css');
 /* ==== overwrite bootstrap standard ==== */
@@ -2354,30 +2356,40 @@ ul.time-post {
     margin: 0;
 }
 
+/***********Button************/
 
-/* scroll to top */
-.scrollup {
-    position: fixed;
-    width: 32px;
-    height: 32px;
-    bottom: 20px;
-    right: 20px;
+.arrow{display: inline-block;
+  width: 35px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 1px;
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+.arrow a{
+  height: 34px;
+  width: 32px;
+  text-align: center;
+  background: #eff3f1;
+  display: block;
+  border-radius: 50%;
+}
+.arrow a span{
+  color: #d66b6b;
+  font-size: 25px;
+  line-height: 39px;
+  cursor: pointer;
 }
 
-a.scrollup {
-    outline: 0;
-    text-decoration: none;
+.arrow.show {
+  opacity: 1;
+  visibility: visible;
 }
-
-    a.scrollup:hover, a.scrollup:active, a.scrollup:focus {
-        opacity: 1;
-        text-decoration: none;
-    }
-
-    a.scrollup i:hover {
-        text-decoration: none;
-    }
-
 
 /* =============================
 18. Position & alignment
@@ -8115,7 +8127,7 @@ font-weight:600;
     *margin-right: .3em;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("../img/glyphicons-halflings.png");
+    background-image: url("/img/pointer.png");
     background-position: 14px 14px;
     background-repeat: no-repeat;
   }
@@ -13405,3 +13417,48 @@ font-weight:600;
    
 
  
+
+
+
+
+
+  /////////////////////////////////////////////////////////
+
+
+  #button2 {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button2::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button2:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button2:active {
+    background-color: #555;
+  }
+  #button2.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
