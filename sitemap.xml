@@ -368,7 +368,13 @@
   </url>
   <url>
     <loc>https://www.camperrules.com/Winnebago-Travato-59G</loc>
-    <lastmod>2021-02-13</lastmod>
+    <lastmod>2021-06-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camperrules.com/Crystal-hot-springs</loc>
+    <lastmod>2021-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
