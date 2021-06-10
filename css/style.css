@@ -13461,5 +13461,12 @@ font-weight:600;
     opacity: 1;
     visibility: visible;
   }
+
+  .boxed {
+    text-align: center;
+    border: 1px solid green ;
+  }
+
+
   
 
