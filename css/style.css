@@ -6069,7 +6069,7 @@ font-weight:600;
   body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 27px;
     color: #333333;
     background-color: #ffffff;
@@ -13463,6 +13463,7 @@ font-weight:600;
   }
 
   .boxed {
+    font-size: x-large;
     text-align: center;
     border: 1px solid green ;
   }
