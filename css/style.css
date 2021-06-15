@@ -13381,6 +13381,16 @@ font-weight:600;
       margin-right: 0.2rem;
     }
 
+    ul.liststyle li::before {
+      content: "✅";
+      display: inline-block;
+      margin-right: 0.2rem;
+    }
+
+    ul.liststyle {
+      list-style: none;
+    }
+
     
     b.red {
       color: red;
