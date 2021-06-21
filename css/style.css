@@ -687,6 +687,22 @@ ul.lush-slider {
         font-weight: 700;
     }
 
+    div.amz h4{
+      line-height: 22px;
+      font-weight:800;
+      font-size: 27px;
+      color:green;
+    }
+
+    div.viewpost {
+      color:red;
+      background: rgb(123, 193, 221);
+      border-radius: 20px;
+      width: 44%;
+      margin: auto;
+      border: 3px solid green;
+    }
+
 /* --- Call to action --- */
 .cta-box {
     margin-top: 10px;
@@ -3541,6 +3557,7 @@ a {
 h5.decor {
     font-size: 2em;
     color: #FB667A;
+    line-height: 35px;
 }
 
 
@@ -13393,7 +13410,7 @@ font-weight:600;
 
     
     b.red {
-      color: red;
+      color: rgb(231, 159, 24);
     }
     ul.red {
       background-color: #f5f5f0;
@@ -13420,6 +13437,20 @@ font-weight:600;
       font-size: 1.375em;
   }
 
+  .product-section-headerRED {
+    margin-bottom: 0;
+}
+.product-section-headerRED {
+    padding: 0.3636363636em 0.5454545455em 0.1818181818em;
+    background-color: #b32121;
+    color: white;
+    font-size: 1.375em;
+}
+
+ .miniheading b{
+color: rgb(124, 88, 20);
+ }
+
 
   .clearit {
     clear: both;
@@ -13427,6 +13458,10 @@ font-weight:600;
    
 
  
+  img.class {
+    height: 900px;
+    width: 300px;
+  }
 
 
 
