@@ -13516,3 +13516,32 @@ color: rgb(124, 88, 20);
 
   
 
+  .amalinkspro-showcase.amalinkspro-showcase-4.aligncenter, .amalinkspro-showcase.amalinkspro-showcase-4.align-center, .amalinkspro-showcase.amalinkspro-showcase-auto.aligncenter, .amalinkspro-showcase.amalinkspro-showcase-auto.align-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+amalinkspro-showcase aligncenter yesprime amalinkspro-showcase-4 alp-load-api
+
+.amalinkspro-showcase.amalinkspro-showcase-4, .amalinkspro-showcase.amalinkspro-showcase-auto {
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+  margin-bottom: 90px!important;
+  max-width: 960px;
+}
+
+.amalinkspro-showcase {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #dedede;
+  margin: 0;
+  border-radius: 3px;
+  position: relative;
+  overflow: visible!important;
+  margin-bottom: 60px!important;
+  max-width: 1000px;
+  width: 100%;
+  opacity: 1;
+  transform: translateY(20px);
+}
