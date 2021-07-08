@@ -3125,7 +3125,7 @@ ol > li {
 	margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
 	padding:4px 8px; /* Add some spacing around the content */
 	list-style:none; /* Disable the normal item numbering */
-	border-top:2px solid #666;
+	border-top:2px solid rgb(116, 233, 116);
 	background:#f6f6f6;
 }
 ol > li:before {
@@ -13544,4 +13544,9 @@ amalinkspro-showcase aligncenter yesprime amalinkspro-showcase-4 alp-load-api
   width: 100%;
   opacity: 1;
   transform: translateY(20px);
+}
+
+
+ol.greenish li {
+  background: #e0ebc5;
 }
