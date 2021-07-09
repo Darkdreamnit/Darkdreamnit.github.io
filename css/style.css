@@ -13550,3 +13550,11 @@ amalinkspro-showcase aligncenter yesprime amalinkspro-showcase-4 alp-load-api
 ol.greenish li {
   background: #e0ebc5;
 }
+
+h6.conclusion {
+  font-size: 32px;
+}
+
+p.highlightgreen {
+  color: rgb(96, 122, 57);
+}
