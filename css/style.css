@@ -13429,15 +13429,20 @@ font-weight:600;
 
     .product-section-header {
       margin-bottom: 0;
+      
   }
   .product-section-header {
       padding: 0.3636363636em 0.5454545455em 0.1818181818em;
       background-color: #7dbd42;
       color: white;
       font-size: 1.375em;
+
+  }
+  ul.spaceafter {
   }
 
   .product-section-headerRED {
+    display:inline;
     margin-bottom: 0;
 }
 .product-section-headerRED {
@@ -13445,6 +13450,7 @@ font-weight:600;
     background-color: #923c3c;
     color: white;
     font-size: 1.375em;
+
 }
 
  .miniheading b{
